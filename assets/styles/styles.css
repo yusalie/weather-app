@@ -1,0 +1,33 @@
+.card.rounded.my-2.shadow-lg {
+    align-items: center;
+    width: 25rem;
+}
+#weather-cards{
+    display: flex;
+    align-items: center;
+}
+.card.rounded.my-5.shadow-lg {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20rem;
+    width: 25rem;
+}
+
+#container-main{
+    display: flex;
+}
+.input-group{
+    width: 40%;
+}
+
+.input-group.d-flex.justify-content-center {
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(200, 231, 231);
+}
+
+.btn.btn-outline-primary {
+    border-radius: 6px;
+}
