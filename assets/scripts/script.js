@@ -1,5 +1,5 @@
 const obj = {
-  'url':'http://api.openweathermap.org/data/2.5/forecast?q=',
+  'url':'https://api.openweathermap.org/data/2.5/forecast?q=',
  'api_key':'487b6dde33fb04a235fb31c96b03e84c'
 }
 function search(){
