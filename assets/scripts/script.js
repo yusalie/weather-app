@@ -1,8 +1,12 @@
+const obj = {
+  'url':'http://api.openweathermap.org/data/2.5/forecast?q=',
+ 'api_key':'487b6dde33fb04a235fb31c96b03e84c'
+}
 function search(){
     let city_name = document.getElementById("city-name");
     let city = document.getElementById("city").value;
     let info = document.getElementById("info")
-    fetch("http://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid=487b6dde33fb04a235fb31c96b03e84c")
+    fetch(obj.url+city+"&appid="+obj.api_key)
   .then((response) => response.json())
   .then((json) => {
     console.log(json);
